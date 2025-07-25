@@ -1,11 +1,5 @@
 # 📊 Excel Analytics Platform (MERN Stack)
-
-A full-stack web application that allows users to upload Excel files (.xlsx/.xls), visualize data using 2D/3D charts, download them as PNG/PDF, and manage history. Includes an Admin Panel to monitor all users and uploaded files.
-
----
-
 ## 🚀 Features
-
 - ✅ User & Admin authentication (JWT-based)
 - ✅ Upload and parse Excel files (SheetJS)
 - ✅ Select X and Y axes dynamically
@@ -15,9 +9,7 @@ A full-stack web application that allows users to upload Excel files (.xlsx/.xls
 - ✅ Admin panel to view all users and files
 - ✅ Optional AI integration for summary (OpenAI API)
 - ✅ Responsive UI using Tailwind CSS
-
 ---
-
 ## 🧰 Tech Stack
 
 ### Frontend  (In Progress)
@@ -38,24 +30,5 @@ A full-stack web application that allows users to upload Excel files (.xlsx/.xls
 
 ---
 
-## 📁 Folder Structure
 
-# Bash
-cd backend
-npm install
-
-# .env 
-
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-
-# Backend Run
-
-node server.js
-# or
-npx nodemon server.js
-
-
-Author Built by [Mudassar]
 
